@@ -1,0 +1,76 @@
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+.sol-navbar{
+    margin-top: 150px;
+}
+.giris-uye-responsive{
+    margin-top: 150px;
+}
+.sepetim{
+    margin-top: 170px;
+}
+.buton-yeri{
+    margin: auto;
+}
+.odeme-yeri{
+    margin-top: 150px;
+}
+.iletisim{
+    margin-top: 150px;
+}
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .buton-yeri{
+        margin: auto;
+    }
+    
+ }
+
+/* `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .header-top ul li{
+        border:0;
+    }
+    .header-top ul li:last-child{
+        border:0;
+    }
+    header .navbar:nth-of-type(1) .dropdown-menu{
+        top: 45px;
+    }
+    
+    .saga{
+        margin: 0px;
+    }
+    #login-box-giris{
+        margin: auto;
+    }
+    .buton-yeri{
+        margin: auto;
+    }
+}
+   
+    
+  
+
+/* `xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px){
+
+}
